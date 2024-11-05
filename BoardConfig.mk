@@ -104,6 +104,11 @@ TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_HAS_NO_RECOVERY_PARTITION := true
 
+#Brightness
+TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
+TW_DEFAULT_BRIGHTNESS := 1400
+TW_MAX_BRIGHTNESS := 2048
+
 # USB
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 
