@@ -79,3 +79,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 
+
+# USB
+TW_EXCLUDE_DEFAULT_USB_INIT := true
+
+
+
